@@ -22,9 +22,6 @@ print(type(nazwisko))
 print(type(dlugoscimie))
 print(type(dlugoscnazwisko))
 
-age=(input("Podaj wiek: "))
-print("Imię i nazwisko: " + imię + " " + nazwisko + " " + ", wiek: " + age + "lat")
-
 first=nazwisko[0]
 last=nazwisko[len(nazwisko)-1]
 print(first)
